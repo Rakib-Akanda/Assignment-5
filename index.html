@@ -17,8 +17,44 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="inter-font">
-    <header></header>
-    <main></main>
+    <header class="mx-auto w-[95%] lg:w-[80%]">
+        <!-- nav section  -->
+        <nav class="flex justify-between items-center pt-5">
+            <div class="dropdown lg:hidden ">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle ">
+                   <img src="./Images/ham.png" alt="">
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a href="">Home </a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Destination</a></li>
+                    <li><a href="">Search</a></li>
+                </ul>
+              </div>
+            <div class="">
+              <h1 class="text-2xl raleway-font text-[#030712] lg:text-4xl font-extrabold mr-8 lg:mr-0">P-Ticket</h1>
+            </div>
+            <div class="">
+                <ul class="hidden lg:flex justify-center items-center font-medium raleway-font text-lg text-[#030712B3]">
+                    <a href=""><li class="pr-11">Home</li></a>
+                    <a href=""><li class="pr-11">About</li></a>
+                    <a href=""><li class="pr-11">Destination</li></a>
+                    <a href=""><li class="pr-11">Search</li></a>
+                </ul> 
+            </div>
+            <div class="flex justify-center items-center ">
+                <div class="hidden lg:flex">
+                    <button class="btn btn-ghost btn-circle hover:bg-white">
+                        <img src="./Images/Frame-(1).png" alt="">
+                    </button>
+                </div>
+                <button class="btn mr-1 lg:mr-0 green-color bg-[#1DD1001A] border border-[#1DD10066] raleway-font text-[#1DD100]">Bus <span><img src="./images/bus-icon.png" alt=""></span></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
     <footer></footer>
   </body>
 </html>
