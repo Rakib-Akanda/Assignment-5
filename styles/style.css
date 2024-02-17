@@ -13,3 +13,12 @@
 .green-color{
     color: #1DD100 ;
 }
+.banner-container{
+    margin: 30px auto 0;
+    height: 550px; 
+    
+    border-radius: 32px;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}

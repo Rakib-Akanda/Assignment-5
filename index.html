@@ -18,43 +18,104 @@
   </head>
   <body class="inter-font">
     <header class="mx-auto w-[95%] lg:w-[80%]">
-        <!-- nav section  -->
-        <nav class="flex justify-between items-center pt-5">
-            <div class="dropdown lg:hidden ">
-                <div tabindex="0" role="button" class="btn btn-ghost btn-circle ">
-                   <img src="./Images/ham.png" alt="">
+      <!-- Nav section  -->
+      <nav class="flex justify-between items-center pt-5">
+        <div class="dropdown lg:hidden">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <img src="./Images/ham.png" alt="" />
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li><a href="">Home </a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Destination</a></li>
+            <li><a href="">Search</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <h1
+            class="text-2xl raleway-font text-[#030712] lg:text-4xl font-extrabold mr-8 lg:mr-0"
+          >
+            P-Ticket
+          </h1>
+        </div>
+        <div class="">
+          <ul
+            class="hidden lg:flex justify-center items-center font-medium raleway-font text-lg text-[#030712B3]"
+          >
+            <a href=""><li class="pr-11">Home</li></a>
+            <a href=""><li class="pr-11">About</li></a>
+            <a href=""><li class="pr-11">Destination</li></a>
+            <a href=""><li class="pr-11">Search</li></a>
+          </ul>
+        </div>
+        <div class="flex justify-center items-center">
+          <div class="hidden lg:flex">
+            <button class="btn btn-ghost btn-circle hover:bg-white">
+              <img src="./Images/Frame-(1).png" alt="" />
+            </button>
+          </div>
+          <button
+            class="btn mr-1 lg:mr-14 green-color bg-[#1DD1001A] border border-[#1DD10066] raleway-font text-[#1DD100]"
+          >
+            Bus <span><img src="./images/bus-icon.png" alt="" /></span>
+          </button>
+        </div>
+      </nav>
+      <!-- Banner section -->
+      <div class="lg:relative">
+        <div class="banner-container  ">
+            <!-- Banner content -->
+          <div class="mx-auto pt-[80px] space-y-6 text-center">
+            <h1 class="text-5xl lg:text-6xl font-extrabold raleway-font text-white">
+              End-to-End Travel With
+            </h1>
+            <h1 class="text-[#1DD100] text-5xl lg:text-6xl font-extrabold">P Paribahan</h1>
+            <p class="text-white font-normal text-lg ">
+              P Paribahan offers end-to-end travel solutions, ensuring comfort,
+              safety, and <br />
+              reliability throughout your journey. Experience excellence in
+              motion!
+            </p>
+            <button
+              class="btn green-color border-none bg-[#1DD100] hover:bg-[#1DD100] outline-none raleway-font text-black"
+            >
+              Buy Tickets
+            </button>
+          </div>          
+        </div>
+          <!-- Banner card -->
+        <div class=" ml-5 lg:flex lg:gap-6 lg:mb-40 lg:absolute lg:top-[480px] lg:left-28 ">
+            <!-- card 1 -->
+            <div class="flex gap-3 bg-white border-b-[3px] border-[#1DD100] rounded-3xl py-8 pl-8 pr-12 w-max ">
+                <div><img src="./images/people.png" alt=""></div>
+                <div>
+                    <h1 class="text-4xl font-bold inter-font">500K+</h1>
+                    <P class="text-lg font-normal text-[#03071299]">Registered users</P>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a href="">Home </a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Destination</a></li>
-                    <li><a href="">Search</a></li>
-                </ul>
-              </div>
-            <div class="">
-              <h1 class="text-2xl raleway-font text-[#030712] lg:text-4xl font-extrabold mr-8 lg:mr-0">P-Ticket</h1>
             </div>
-            <div class="">
-                <ul class="hidden lg:flex justify-center items-center font-medium raleway-font text-lg text-[#030712B3]">
-                    <a href=""><li class="pr-11">Home</li></a>
-                    <a href=""><li class="pr-11">About</li></a>
-                    <a href=""><li class="pr-11">Destination</li></a>
-                    <a href=""><li class="pr-11">Search</li></a>
-                </ul> 
-            </div>
-            <div class="flex justify-center items-center ">
-                <div class="hidden lg:flex">
-                    <button class="btn btn-ghost btn-circle hover:bg-white">
-                        <img src="./Images/Frame-(1).png" alt="">
-                    </button>
+            <!-- card 2 -->
+            <div class="flex gap-3 bg-white border-b-[3px] border-[#1DD100] rounded-3xl py-8 pl-8 pr-12 w-max ">
+                <div><img src="./images/ticket-cupon.png" alt=""></div>
+                <div>
+                    <h1 class="text-4xl font-bold inter-font">1.7 lacks</h1>
+                    <P class="text-lg font-normal text-[#03071299]">Tickets sold</P>
                 </div>
-                <button class="btn mr-1 lg:mr-0 green-color bg-[#1DD1001A] border border-[#1DD10066] raleway-font text-[#1DD100]">Bus <span><img src="./images/bus-icon.png" alt=""></span></button>
             </div>
-        </nav>
+            <!-- card 3 -->
+            <div class="flex gap-3 bg-white border-b-[3px] border-[#1DD100] rounded-3xl py-8 pl-8 pr-12 w-max ">
+                <div><img src="./images/stoppage.png" alt=""></div>
+                <div>
+                    <h1 class="text-4xl font-bold inter-font">80K+</h1>
+                    <P class="text-lg font-normal text-[#03071299]">Rental partners</P>
+                </div>
+            </div>
+        </div>
+      </div>
     </header>
-    <main>
-
-    </main>
+    <main></main>
     <footer></footer>
   </body>
 </html>
