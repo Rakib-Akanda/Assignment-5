@@ -4,4 +4,6 @@ function bannerBtnToPHpribahan() {
   selectButton.addEventListener("click", bannerBtnToPHpribahan);
   targetSection.scrollIntoView({ behavior: "smooth" });
 }
-
+function clickOnSeat(){
+    selectSeatButton();
+}
