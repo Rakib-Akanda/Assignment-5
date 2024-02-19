@@ -6,15 +6,24 @@ function removeBackgroundColorById(elementId) {
   const element = document.getElementById(elementId);
   element.classList.remove("bg-orange-400");
 }
+function setTextElementById(elementId, value) {
+  const element = document.getElementById(elementId);
+  element.innerText = value;
+}
 function getElementTextById(elementId) {
   const element = document.getElementById(elementId);
   const text = element.innerText;
   return text;
 }
-function setTextElementById(elementId, value) {
-  const element = document.getElementById(elementId);
-  element.innerText = value;
+function getElementIdByClass(elementClass){
+  const elements = document.querySelectorAll(elementClass);
+  for (let i = 0; i < elements.length; i++) {
+    // Access the ID of each element
+    const id = elements[i].id;
+    return id;
+  }
 }
+document.ge
 function nextButtonEnable(){
     document.addEventListener('click', function(){
         const inputField = document.getElementById('phone-number-id');
@@ -38,10 +47,10 @@ function selectSeatButton(){
     const getAddSeatNumber = parseInt(getAddSeat);
     const leftSeat = getLeftSeatNumber - 1;
     const addSeat = getAddSeatNumber + 1;
-    if(leftSeat >= 0 ){
+    if(leftSeat >= 4 ){
         setTextElementById('left-seat', leftSeat);
     };
-    if(addSeat >=0 && addSeat <=8 ){
+    if(addSeat >=0 && addSeat <=4 ){
         setTextElementById('add-seat', addSeat);
     };
 }
